@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  <section class="head">
+   <section class="header">
+   <h1>Todo</h1>
+   <img id="toggole-button" src="./images/icon-moon.svg" alt="">
+   </section>
+   <section class="to-do-cr">
+    <label>
+      <input id="checkbox" type="checkbox" name="check">
+    </label>
+   <label name="task">
+     <input id="text" type="text" name="to-do" placeholder="create a new todo..">
+   </label>
+   </section>
+  </section>
+  <section class="items"> 
+   <p><span>{num}</span> items left</p>
+   <p>Clear Completed</p>
+  </section>
+   <section id="to-dos">
+     
+   </section>
+  <section class="list-comand">
+   <ul>
+   <li>All</li>
+   <li>Active</li> 
+   <li>Completed</li>
+   </ul>
+  </section>
+
+  
+
+  <p style="color: hsl(235, 19%, 35%); font-size: 1.05rem;">Drag and drop to reorder list</p>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

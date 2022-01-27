@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	background-color: hsl(0, 0%, 98%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section.head{
+	width: 100vw;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./images/bg-mobile-light.jpg);
+	background-size: cover;
+}
+section.header{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 5%;
+	position: relative;
+}
+section.header h1{
+   margin-right: 55vw;
+   font-size: 2.5rem;
+   text-transform: uppercase;
+   color: white;
+   margin-top: -4%;
+}
+section.header img{
+	margin-top: 0;
+}
+section.header img:hover{
+	cursor: pointer;
+}
+section.to-do-cr{
+	width: 80%;
+	background-color: white;
+	height: 55px;
+	border-radius: 10px;
+	justify-content: center;
+	padding-left: 5%;
+}
+section.to-do-cr input#text{
+ border: 0;
+ font-size: 1.1rem;
+ opacity: 0.5;
+ width: 90%;
+ height: 55px;
+ border-radius: 10px;
+ padding: 2%;
+ background-color: inherit;
+}
+section.to-do-cr input#checkbox{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: inherit;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: -1%;
+}
+section.to-do-cr input#checkbox:checked{
+ background-image:linear-gradient( to bottom,hsl(192, 100%, 67%),hsl(280, 87%, 65%) ) ;	
+}
+
+section.list-comand,section.items{
+ width: 80%;
+ height: 55px;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ background-color: white;
+ margin: 5%;
+}
+section.items p{
+ margin:0 12% 0 12%;
+	font-size: 1rem;
+	color:hsl(236, 9%, 61%) ;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+    height: 55px;
+    list-style: none;
+    padding: 2%;
+}
+ul li{
+	margin:0 6% 0 6%;
+	font-size: 1.1rem;
+	color:hsl(236, 9%, 61%) ;
+}
+ul li:hover{
+	cursor: pointer;
+}
